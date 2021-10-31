@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--================== Design Provide By shayan-mahmood ==================-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <style>
+        body {
+            background: black;
+            margin-top: 200px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        #typing {
+            width: 0ch;
+            color: white;
+            float: left;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 4.392386530014641vw;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 5s steps(22) 1s infinite alternate;
+        }
+        
+        #typing span {
+            color: red;
+        }
+        
+        #crow {
+            float: left;
+            color: white;
+            font-family: consolas;
+            font-weight: bold;
+            font-size: 4.392386530014641vw;
+            animation: crow 0.5s linear 0s infinite;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0ch;
+            }
+            to {
+                width: 22.5ch;
+            }
+        }
+        
+        @keyframes crow {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .OP {
+            color: blue !important;
+            font-size: 6.222547584187408vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="typing">I AM <span class="PO">SHAYAN MAHMOOD</span>
+        <BR/> <span class="OP">A PROGRAMMER</span>
+    </div>
+    <div id="crow">|</div>
+    <script>
+    </script>
+
+</body>
+
+</html>
